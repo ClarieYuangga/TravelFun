@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+:root {
+    --pr-color: #ffffff;
+}
+* {
+    font-family: "Poppins" serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+    color: #5b4545 !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-link:hover,
+.nav-link.active:hover {
+    color: #c21010 !important;
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    color: #c21010 !important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.button-primary {
+    width: 152px;
+    height: 58px;
+    background-color: #c21010;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.llogin {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.container {
+    text-align: left;
+    padding: 20px;
+    margin: 0 auto;
+    /* max-width: 1040px; */
+}
+
+.container .watermark {
+    z-index: -999999;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+}
+
+.logo {
+    width: 24px; /* Sesuaikan ukuran logo */
+    height: 24px; /* Sesuaikan ukuran logo */
+    margin-right: 15px; /* Memberikan jarak antara logo dan teks */
+    /* margin-left: 100px; /* Geser ke kanan */
+}
+
+.header-text {
+    text-align: right;
+    float: right;
+    margin-left: 10px; /* tambahkan jarak dari kiri */
+    font-size: 20px;
+    margin: 0;
+    color: #100f0f;
+}
+
+.button-seccondary {
+    width: 221px;
+    height: 58px;
+    background-color: #ffbe56;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.bendera1 {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.button-primary1 {
+    width: 221px;
+    height: 58px;
+    background-color: #c21010;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.bendera2 {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.service {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: regular;
+    margin-right: 20px;
+}
+.details h1 {
+    color: #100f0f;
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.details p {
+    font-size: 20px;
+    color: #100f0f;
+}
+
+.place .cards {
+    width: 18rem;
+    border: none;
+    /* padding: 1%; */
+    /* align-items: flex-start; */
+}
+/* .card {
+  width: 272px;
+  height: 175;
+  border-radius: 10px;
+}
+.rekomendasi {
+  width: 290px;
+  height: 365px;
+}
+.star {
+  width: 20px;
+  height: 19px;
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.card-text {
+  font-size: 1.2rem;
+  color: #100f0f;
+}
+.card-rating {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.card-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5b4545;
+} */
+.text-container {
+    /* border: 1px solid rgb(245, 244, 244); Hanya untuk demonstrasi */
+    padding: 20px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.highlight4 {
+    color: #c21010;
+}
+
+p1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    /* margin-right: 30; */
+}
+.destination-container {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+.cards {
+    /* background-color: white; */
+    height: 480px;
+    border-radius: 15px;
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    /* padding: 15px; */
+}
+
+.info {
+    padding: 5px;
+}
+
+.info .info-detail {
+    background-color: #f7f7f7;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: 380px;
+}
+
+.location {
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.rating {
+    font-size: 16px;
+    color: rgb(21, 21, 21);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.price1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.simbol {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.location1 {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.container7 {
+    text-align: center;
+}
+.h4 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.highlight {
+    color: #c21010;
+}
+.cards2 {
+    height: 457px;
+    border-radius: 15px;
+    width: 607px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.info2 {
+    padding: 15px;
+}
+
+.info2 .info-detail2 {
+    background-color: #f7f7f7;
+    padding: 15px;
+    width: 558px;
+    height: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-img2 {
+    width: 100%;
+    height: 380px;
+}
+
+.adm {
+    width: 58px; /* Sesuaikan ukuran logo */
+    height: 58px; /* Sesuaikan ukuran logo */
+    margin-right: 15px; /* Memberikan jarak antara logo dan teks */
+    /* margin-left: 100px; /* Geser ke kanan */
+}
+
+.header-text1 {
+    text-align: right;
+    float: right;
+    margin-left: 5px; /* tambahkan jarak dari kiri */
+    font-size: 20px;
+    margin: 0;
+    color: #9d8a8a;
+}
+
+.date {
+    font-size: 20px;
+    color: #9d8a8a;
+}
+
+.icon2 {
+    margin-right: 5px;
+}
+
+.price2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.rating2 {
+    font-size: 16px;
+    color: rgb(21, 21, 21);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+/* .location {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+} */
+
+.footer {
+    background-color: #c21010;
+    color: white;
+    /* padding: 20px 20px; */
+}
+
+.footer .logof {
+    height: 68px;
+    width: 156px;
+    margin-bottom: 37px;
+}
+
+.footer .teks {
+    margin-bottom: 80px;
+}
+
+.footer .container {
+    padding: 0px 0px 20px 0px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer .footer-subscribe input {
+    margin-bottom: 10px;
+}
+
+/* .footer .footer-credits {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #100F0F;
+  padding: 20px 0;
+  font-size: 18px;
+  position: relative;
+  width: 100%; 
+  text-align: center;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0;
+} */
+
+.footer .footer-credits {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+    background-color: #100f0f; /* Warna latar hitam */
+    padding: 20px; /* Padding yang sesuai untuk memberikan ruang */
+    font-size: 18px;
+    /* width: 80%; Memastikan elemen memenuhi lebar layar */
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.footer .footer-credits p {
+    margin: 0;
+    color: #fff; /* Warna teks putih */
+}
+
+.footer .footer-credits-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1284px; /* Menjaga ukuran maksimal konten */
+    max-height: 90px;
+    width: 100%;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
